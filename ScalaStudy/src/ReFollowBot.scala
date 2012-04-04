@@ -5,6 +5,9 @@ import twitter4j.Status
 import twitter4j.auth.AccessToken
 import twitter4j.IDs
 
+/**
+ * 自動フォロー返しを行います
+ */
 class ReFollowBot {
 
   def main(args: Array[String]): Unit = {
